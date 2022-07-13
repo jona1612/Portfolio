@@ -292,7 +292,7 @@ const projects = {
     {
       id: "2",
       name: "Asset Management Software",
-      url: "https://github.com/vvHacker007/Event-Scheduler",
+      // url: "https://github.com/vvHacker007/Event-Scheduler",
       description:
         "It is an all-purpose scheduler software. It is designed to monitor all the activities and give appropriate reminders for them.",
       languages: [
@@ -321,7 +321,7 @@ const projects = {
     {
       id: "3",
       name: "Portfolio Website",
-      url: "https://vvhacker007.github.io/Portfolio/",
+      url: "https://jonathan-myportfolio.netlify.app/",
       description: "You are stalking it right now 😉",
       languages: [
         {
