@@ -1,7 +1,7 @@
 // Website related settings
 const settings = {
   isSplash: true,
-  useCustomCursor: false, 
+  useCustomCursor: true, 
   googleTrackingID: "UA-174238252-2",
 };
 
