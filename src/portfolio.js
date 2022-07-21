@@ -1,7 +1,7 @@
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  isSplash: false, // Change this to true if you want to use the splash screen.
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
@@ -168,10 +168,9 @@ const degrees = {
       alt_name: "SSEC",
       duration: "2014 - 2018",
       descriptions: [
-        // "⚡  I'm currently pursuing my Bachelors in Computer Science and Engineering.",
         "⚡ I have studied core subjects like C, C++, Data Structures, OOPS, etc.",
-        "⚡ I have also completed online course for Frontend, Backend , Full Stack Web Development.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I have also completed online course for Frontend, Backend and Full Stack Web Development.",
+        // "⚡ I have implemented several projects based on what I've learn under my Full Stack Developement course. ",
       ],
       website_link: "https://www.dbjaincollege.org/",
     },
@@ -181,33 +180,14 @@ const degrees = {
 const certifications = {
   // certifications: [
   //   {
-  //     title: "Google Cloud",
-  //     subtitle: "Google Cloud Training",
-  //     logo_path: "google_logo.png",
-  //     certificate_link:
-  //       "https://drive.google.com/file/d/1r0hYt8Pp0N0u_4Tg-poMF1Qv3LkoKVAP/view",
-  //     alt_name: "MongoDB University",
-  //     // color_code: "#2AAFED",
-  //     color_code: "#2AAFED",
-  //   },
-  //   {
-  //     title: "Hackathon",
-  //     subtitle: "Backyard Hacks 2.0",
-  //     logo_path: "hackathon1.png",
+  //     title: "FULL STACK DEVELOPMENT",
+  //     subtitle: "MERN Stack Developer",
+  //     logo_path: "full stack.png",
   //     // certificate_link:
-  //     //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-  //     alt_name: "hackathon",
+  //     //   "",
+  //     alt_name: "",
   //     color_code: "#f47e2c",
   //   },
-  //   // color_code: "#8C151599",
-  //   // color_code: "#7A7A7A",
-  //   // color_code: "#0C9D5899",
-  //   // color_code: "#C5E2EE",
-  //   // color_code: "#ffc475",
-  //   // color_code: "#g",
-  //   // color_code: "#ffbfae",
-  //   // color_code: "#fffbf3",
-  //   // color_code: "#b190b0",
   // ],
 };
 
@@ -292,9 +272,9 @@ const projects = {
     {
       id: "2",
       name: "Asset Management Software",
-      // url: "https://github.com/vvHacker007/Event-Scheduler",
       description:
-        "It is an all-purpose scheduler software. It is designed to monitor all the activities and give appropriate reminders for them.",
+        // "It is an Asset Managing software. It is designed to monitor all the activities and give appropriate reminders for them.",
+        "UNDER CONSTRACTION",
       languages: [
         {
           name: "HTML5",
