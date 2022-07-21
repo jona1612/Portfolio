@@ -41,7 +41,7 @@ export default function Greeting(props) {
                   {...styles}
                   className="button"
                   onClick={() => {
-                    navigate.push("/contact");
+                    navigate("/contact");
                   }}
                 >
                   Contact Me
