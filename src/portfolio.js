@@ -1,7 +1,7 @@
 // Website related settings
 const settings = {
   isSplash: true,
-  useCustomCursor: true, 
+  useCustomCursor: true,
   googleTrackingID: "UA-174238252-2",
 };
 
@@ -14,7 +14,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer, Frontend, Backend and React Developer, Open Source Enthusiast, Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/1YKfsKbAbILOmoScrqe1tjIssNMUe4Ul3/view?usp=sharing",
+    "https://drive.google.com/file/d/19TSXmNE8u8LZTso81tBcTnM4jwtTCHLs/view?usp=sharing",
   mail: "mailto:jonathan16official@gmail.com",
 };
 
@@ -37,6 +37,13 @@ const skills = {
         "⚡ Integration of third party services such as Firebase / AWS",
       ],
       softwareSkills: [
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "simple-icons:cplusplus",
+          style: {
+            color: "#E94E32",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -108,6 +115,20 @@ const skills = {
             color: "#E94E32",
           },
         },
+        // {
+        //   skillName: "Java",
+        //   fontAwesomeClassname: "simple-icons:java",
+        //   style: {
+        //     color: "#f89820",
+        //   },
+        // },
+        // {
+        //   skillName: "Python",
+        //   fontAwesomeClassname: "simple-icons:python",
+        //   style: {
+        //     color: "#3776AB",
+        //   },
+        // },
       ],
     },
     {
@@ -191,7 +212,6 @@ const certifications = {
   // ],
 };
 
-
 // Projects Page
 const projectsHeader = {
   title: "Projects",
@@ -244,7 +264,7 @@ const projects = {
           iconifyClass: "bxl:mongodb",
           style: {
             color: "#439743",
-          }
+          },
         },
       ],
     },
