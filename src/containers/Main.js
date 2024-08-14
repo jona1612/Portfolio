@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, HashRouter } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
@@ -12,7 +12,7 @@ export default function Main(propss) {
     return (
       <div>
         <HashRouter basename="/">
-          <Switch>
+          <Routes>
             <Route
               path="/"
               exact
@@ -74,7 +74,7 @@ export default function Main(propss) {
                 />
               )}
             />
-          </Switch>
+          </Routes>
         </HashRouter>
       </div>
     );
@@ -82,7 +82,7 @@ export default function Main(propss) {
     return (
       <div>
         <HashRouter basename="/">
-          <Switch>
+          <Routes>
             <Route
               path="/"
               exact
@@ -134,7 +134,7 @@ export default function Main(propss) {
                 />
               )}
             />
-          </Switch>
+          </Routes>
         </HashRouter>
       </div>
     );

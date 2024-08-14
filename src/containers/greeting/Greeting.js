@@ -5,13 +5,13 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 export default function Greeting(props) {
   const theme = props.theme;
   // const navigate = useNavigate();
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
@@ -43,7 +43,7 @@ export default function Greeting(props) {
                   {...styles}
                   className="button"
                   onClick={() => {
-                    history.push("/contact");
+                    navigate.push("/contact");
                   }}
                 >
                   Contact Me
