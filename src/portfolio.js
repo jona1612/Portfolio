@@ -14,14 +14,14 @@ const greeting = {
   subTitle:
     "Full Stack Developer, Frontend, Backend and React Developer, Open Source Enthusiast, Life Long Learner.",
   resumeLink:
-    "https://drive.google.com/file/d/19TSXmNE8u8LZTso81tBcTnM4jwtTCHLs/view?usp=sharing",
+    "https://drive.google.com/file/d/1gCMuAwpZT18iJQQGoVaIHNqZTfd80tm7/view?usp=drive_link",
   mail: "mailto:jonathan16official@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Social Media Link */
   github: "https://github.com/jona1612",
-  linkedin: "https://www.linkedin.com/in/jonathan-p-0b3a651b2/",
+  linkedin: "https://www.linkedin.com/in/jonathan1612/",
   gmail: "jonathan16official@gmail.com",
 };
 
@@ -37,13 +37,13 @@ const skills = {
         "⚡ Integration of third party services such as Firebase / AWS",
       ],
       softwareSkills: [
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
+        // {
+        //   skillName: "C++",
+        //   fontAwesomeClassname: "simple-icons:cplusplus",
+        //   style: {
+        //     color: "#E94E32",
+        //   },
+        // },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
